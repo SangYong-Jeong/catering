@@ -1,0 +1,66 @@
+/************** Default ***************/
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Playfair+Display&display=swap');
+/* font-family: 'Cardo', serif; */
+/* font-family: 'Playfair Display', serif; */
+
+html, body {font-family: 'Cardo', serif; font-size: 15px;}
+
+
+.wrapper {max-width: 1100px; padding: 100px 20px; margin: auto;}
+h1.title {text-align: center; font-family: 'Playfair Display', serif; font-size: 36px; letter-spacing: 5px; margin-bottom: 44px;}
+h5.title {text-align: center; font-size: 20px; color: #888; letter-spacing: 5px; margin-bottom: 18px;}
+p.content {font-size: 17px; line-height: 1.55; margin-bottom: 20px;}
+p.content-gray {font-size: 17px; color: #888; line-height: 1.55;}
+
+h4.title {font-size: 20px; letter-spacing: 5px; margin-bottom: 20px;}
+
+/************** head-wrapper ***************/
+.head-wrapper {padding: 8px 16px; position: fixed; width: 100%; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, .7); z-index: 99; top: 0; left: 0;}
+.head-wrapper .logo {float: left; padding: 10px 16px; letter-spacing: 4px;}
+.head-wrapper .logo:hover {background-color: #ccc;}
+.head-wrapper .navi-wrap {float: right;}
+.head-wrapper .navi-wrap .navi {float: left; padding: 10px 16px; letter-spacing: 4px;}
+.head-wrapper .navi-wrap .navi:hover {background-color: #ccc;}
+
+
+/************** main-wrapper ***************/
+.main-wrapper .hamburger-wp {max-width: 1600px; margin: auto; position: relative;top: 0; left: 0;}
+.main-wrapper .hamburger-wp .slogan-wrap {position: absolute; left: 24px; bottom: 20px; font-size: 25px; letter-spacing: 5px;}
+
+
+/************** about-wrapper ***************/
+.about-wrapper {}
+.about-wrapper .toast-wrap {float: left; width: 48%; opacity: .7;}
+.about-wrapper .about-wrap {float: right; width: 48%; padding: 20px;}
+
+/************** menu-wrapper ***************/
+.menu-wrapper .wrapper {border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;}
+.menu-wrapper .menu-wp {float: left; width: 47%;}
+.menu-wrapper .salt-wp {float: right; width: 47%; opacity: .7;}
+.menu-wrapper .menu-wp p.content-gray {font-size: 15px; margin-bottom: 48px;}
+
+
+
+
+/************** contact-wrapper ***************/
+.contact-wrapper h1.title {text-align: left;}
+.contact-wrapper p.content {font-size: 15px;}
+.contact-wrapper p.content:nth-child(3) {font-weight: bold; font-size: 17px; color: #607d8b;}
+.contact-wrapper .form-wp {width: 100%;}
+.contact-wrapper .form-wp .date {font-weight: bold;}
+.contact-wrapper .form-wp input {border: none; width: 100%; border-bottom: 1px solid #888; padding: 20px 10px; margin-bottom: 12px;}
+.contact-wrapper .form-wp > :nth-child(4) {margin-bottom: 32px;}
+.contact-wrapper .form-wp .bt {border: none; padding: 12px 16px; background-color: #eee;}
+
+/************** footer-wrapper ***************/
+.footer-wrapper {background-color: #eee; padding: 50px;}
+.footer-wrapper .copyright-wrap {margin: auto; text-align: center; max-width: 1100px;}
+.footer-wrapper .copyright-wrap a {text-decoration: underline;}
+
+
+
+
+
+
+
+
