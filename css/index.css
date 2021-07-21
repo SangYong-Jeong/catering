@@ -9,8 +9,8 @@ html, body {font-family: 'Cardo', serif; font-size: 15px;}
 .wrapper {max-width: 1100px; padding: 100px 20px; margin: auto;}
 h1.title {text-align: center; font-family: 'Playfair Display', serif; font-size: 36px; letter-spacing: 5px; margin-bottom: 44px;}
 h5.title {text-align: center; font-size: 20px; color: #888; letter-spacing: 5px; margin-bottom: 18px;}
-p.content {font-size: 17px; line-height: 1.55; margin-bottom: 20px;}
-p.content-gray {font-size: 17px; color: #888; line-height: 1.55;}
+p.content {font-size: 16px; line-height: 1.55; margin-bottom: 20px;}
+p.content-gray {font-size: 16px; color: #888; line-height: 1.55;}
 
 h4.title {font-size: 20px; letter-spacing: 5px; margin-bottom: 20px;}
 
@@ -22,25 +22,21 @@ h4.title {font-size: 20px; letter-spacing: 5px; margin-bottom: 20px;}
 .head-wrapper .navi-wrap .navi {float: left; padding: 10px 16px; letter-spacing: 4px;}
 .head-wrapper .navi-wrap .navi:hover {background-color: #ccc;}
 
-
 /************** main-wrapper ***************/
 .main-wrapper .hamburger-wp {max-width: 1600px; margin: auto; position: relative;top: 0; left: 0;}
 .main-wrapper .hamburger-wp .slogan-wrap {position: absolute; left: 24px; bottom: 20px; font-size: 25px; letter-spacing: 5px;}
-
 
 /************** about-wrapper ***************/
 .about-wrapper {}
 .about-wrapper .toast-wrap {float: left; width: 48%; opacity: .7;}
 .about-wrapper .about-wrap {float: right; width: 48%; padding: 20px;}
+.about-wrapper .about-wrap p.content .seasonal {background-color: #dfdfdf; padding: 1px 6px;}
 
 /************** menu-wrapper ***************/
 .menu-wrapper .wrapper {border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;}
 .menu-wrapper .menu-wp {float: left; width: 47%;}
 .menu-wrapper .salt-wp {float: right; width: 47%; opacity: .7;}
 .menu-wrapper .menu-wp p.content-gray {font-size: 15px; margin-bottom: 48px;}
-
-
-
 
 /************** contact-wrapper ***************/
 .contact-wrapper h1.title {text-align: left;}
